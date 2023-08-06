@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/cool-background.png');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.bg-primary{
+  background-color: #000AFF;
+}
+.txt-primary{
+  color: #000AFF;
+}
+.meet-container{
+  height: 100%;
+}
+@media screen and (min-width:300px) and (max-width:768px) {
+  .meet-container{
+    height: auto;
+  }
 }
